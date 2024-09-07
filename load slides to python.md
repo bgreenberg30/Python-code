@@ -19,6 +19,6 @@ im = imread(url)
 plt.imshow(im);
 ```
 
-####Line 1: A string variable is being used to store the web address of an image.
-####Line 2: This line is used to read the image from the URL. This function turns the image into a numpy array that allows for the image to be resized or filtered.
-####Line 3: This line is used to display the image.
+#### Line 1: A string variable is being used to store the web address of an image.
+#### Line 2: This line is used to read the image from the URL. This function turns the image into a numpy array that allows for the image to be resized or filtered.
+#### Line 3: This line is used to display the image.
