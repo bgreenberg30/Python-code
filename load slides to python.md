@@ -22,3 +22,11 @@ plt.imshow(im);
 #### Line 1: A string variable is being used to store the web address of an image.
 #### Line 2: This line is used to read the image from the URL. This function turns the image into a numpy array that allows for the image to be resized or filtered.
 #### Line 3: This line is used to display the image.
+
+## Image Shape
+```
+im.shape
+```
+
+#### This line gives the dimensions of the object given the im variable. It outputs 3 vaulues. Height, Width, and Channels.
+#### Height and Width are measured  in pixels and the channels are typically 3 for an RGB image—Red, Green, Blue—or 4 for RGBA, which includes transparency).
