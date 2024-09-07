@@ -30,3 +30,14 @@ im.shape
 
 #### This line gives the dimensions of the object given the im variable. It outputs 3 vaulues. Height, Width, and Channels.
 #### Height and Width are measured  in pixels and the channels are typically 3 for an RGB image—Red, Green, Blue—or 4 for RGBA, which includes transparency).
+
+
+## Show Image
+```
+plt.imshow(im[0:,0:,:])
+```
+
+#### plt.imshow is a function from matplotlib that shows the image.
+#### im[0:, 0:, :] slices the array to extract a certain portion of the image.
+
+##
