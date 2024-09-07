@@ -12,3 +12,12 @@ import numpy as np
 from skimage.io import imread
 from skimage.transform import resize
 ```
+## Read Image from URL
+```
+url = 'https://raw.githubusercontent.com/williamedwardhahn/MathData24/main/boat.png'
+im = imread(url)
+plt.imshow(im);
+```
+
+#### 
+dddd
